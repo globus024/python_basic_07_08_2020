@@ -7,5 +7,5 @@
 from functools import reduce
 
 # number_list = [number for number in )]
-number_list = [reduce(lambda x, y: x if not x & 1 else y, [num, num+1]) for num in range(100,1001,2)]
-print(number_list)
+number_list = [num for num in range(100,1001) if not num & 1 ]
+compositions = reduce(lambda x, y: x*y, number_list)
