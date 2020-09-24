@@ -6,6 +6,7 @@ import os
 from typing import List
 from homeworks.write_to_file import write_file
 
+
 def input_msg(msg=[]) -> List:
     '''
     The program asks the user to enter any text until an empty string is entered
@@ -24,7 +25,7 @@ def input_msg(msg=[]) -> List:
 
 
 if __name__ == '__main__':
-    path = os.path.join(os.path.dirname(__file__),'files', 'new.txt')
+    path = os.path.join(os.path.dirname(__file__), 'files', 'new.txt')
     msg = input_msg()
     if msg:
         text = '\n'.join(msg)

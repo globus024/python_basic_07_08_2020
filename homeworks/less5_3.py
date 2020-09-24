@@ -9,7 +9,7 @@ from homeworks.read_from_file import read_file
 
 if __name__ == "__main__":
     try:
-        path = os.path.join(os.path.dirname(__file__),'files' ,'less5_3.txt')
+        path = os.path.join(os.path.dirname(__file__), 'files', 'less5_3.txt')
         staffs = read_file(path, float)
         staffs_more_amt = {}
         if staffs:

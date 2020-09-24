@@ -3,7 +3,8 @@
 
 from typing import Dict, Type
 
-def read_file(path: str,  type:Type, delimeter='') -> Dict:
+
+def read_file(path: str, type: Type, delimeter='') -> Dict:
     '''
     The program reads from the data file and generates a dictionary where the key is the first value in the string
     :param path: str. Full path to the file

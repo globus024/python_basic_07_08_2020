@@ -14,8 +14,8 @@ import os
 
 if __name__ == "__main__":
     current_path = os.path.dirname(__file__)
-    path = os.path.join(current_path,'files', 'less5_4.txt')
-    new_path = os.path.join(current_path,'files' ,'less5_4_ru.txt')
+    path = os.path.join(current_path, 'files', 'less5_4.txt')
+    new_path = os.path.join(current_path, 'files', 'less5_4_ru.txt')
     en_num_list = read_file(path, int, '-')
     number_list = [en_num_list[key] for key in en_num_list]
     ru_num_spell_list = {1: 'Раз', 2: 'Два', 3: 'Три', 4: 'Четыри'}
@@ -28,7 +28,7 @@ if __name__ == "__main__":
             continue
     if result_list:
         text = '\n'.join(result_list)
-        if write_file(new_path,text):
+        if write_file(new_path, text):
             print('Данные успешно сохранены')
         else:
             print('Не удалось записать в файл')

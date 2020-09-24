@@ -6,7 +6,7 @@ import os
 
 if __name__ == '__main__':
     try:
-        path = os.path.join(os.path.dirname(__file__),'files', 'less5_2.txt')
+        path = os.path.join(os.path.dirname(__file__), 'files', 'less5_2.txt')
         with open(path, 'r', encoding='UTF-8') as file:
             word_cnt_list = []
             for f in file:
