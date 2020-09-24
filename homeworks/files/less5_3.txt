@@ -1,0 +1,14 @@
+Ivanov 19999
+Petrov 35000
+Sidarov 52500
+Galkin 18000
+Petrenko 28000
+Gus 32000
+Chesniy 13000
+Suvorova 35999
+Babkina 21000
+Antonov 18900
+Usmanov 15000
+Gagaladze 40000
+Arutyunova 23000
+Kuzya 540000
