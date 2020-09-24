@@ -13,5 +13,6 @@ def write_file(path: str, text: str) -> bool:
             file.write(text)
         return True
     except:
+
         file.close()
         return False
